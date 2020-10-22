@@ -1,0 +1,36 @@
+{
+	"name": "Cataclysms of Herobrine",
+	"id": "cataclysms_of_herobrine",
+	"version": "${version}",
+	"icon": "assets/cataclysms_of_herobrine/textures/logo.png",
+	"description": "Fancy and simplistic animals, biomes, structures and more!",
+	"authors": [
+		"Hugman"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/wild-explorer",
+		"sources": "https://github.com/DawnTeamMC/WildExplorer",
+		"issues": "https://github.com/DawnTeamMC/WildExplorer/issues"
+	},
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.hugman.cataclysms_of_herobrine.CataclysmsOfHerobrine"
+		]
+	},
+	"mixins": [
+		"cataclysms_of_herobrine.mixins.json"
+	],
+	"depends": {
+		"fabric": "*",
+		"dawn": "*"
+	},
+	"custom": {
+		"modupdater": {
+			"strategy": "curseforge",
+			"projectID": 10000000000
+		}
+	},
+	"license": "MIT",
+	"schemaVersion": 1
+}

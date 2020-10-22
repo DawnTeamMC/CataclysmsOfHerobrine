@@ -1,0 +1,10 @@
+{
+	"required": true,
+	"package": "com.hugman.cataclysms_of_herobrine.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
