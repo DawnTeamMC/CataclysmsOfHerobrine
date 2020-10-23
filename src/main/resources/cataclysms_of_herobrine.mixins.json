@@ -3,6 +3,7 @@
 	"package": "com.hugman.cataclysms_of_herobrine.mixin",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
+		"ModelLoaderAccessor"
 	],
 	"injectors": {
 		"defaultRequire": 1
